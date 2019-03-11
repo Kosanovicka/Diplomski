@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Charm');
+
+.strana1 {
+    background: url("../img/daroteka.jpg") no-repeat center center;
+    background-size: cover;
+    width: auto;
+    height: 100vh;   
+ }
+ .strana2 {
+    background: url("../img/BG.JPG") no-repeat center center;
+    background-size: cover;
+    width: auto;
+    height: 100vh !important;   
+ }
+
+ .carousel-inner img{
+   height:74vh;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+h1{
+    position: absolute;
+    color: rgb(80, 55, 55);
+    top: 40%;
+    left:40%;
+    letter-spacing: 5mm;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+h2{
+    position: absolute;
+    letter-spacing: 5mm;
+    top: 60%;
+    color: black;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.ml5 {
+    position: relative;
+    font-weight: auto;
+    font-size: 25px;;
+    color: #402d2d;
+  }
+  
+  .ml5 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+    line-height: 1em;
+  }
+  
+  .ml5 .line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 3px;
+    width: auto;
+    background-color: #0f0e0e;
+    transform-origin: 0.5 0;
+  }
+  
+  .ml5 .ampersand {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: auto;
+    width: 1em;
+    margin-right:0;
+    margin-left: 0s;
+  }
+  
+  .ml5 .letters {
+    display: inline-block;
+    opacity: 0;
+  }
+
+h3{
+    text-shadow: 4px 4px 4px #aaa;
+    content:"";
+    display: inline-block;
+}
+.strana3{
+    background-color: rgb(188, 188, 219);
+    background-size: cover;
+    width: 100%;
+    height: 100vh; 
+}
+.strana4{
+    background-color: rgb(188, 188, 219);
+    width: 100;
+    height: 100; 
+}
+
+.navbar{
+    height: 4rem;
+    width: auto;
+}
+
+.nav-link{
+    font-size: 1.1rem;
+    font-style: bold !important;
+    color: black;
+    text-shadow: grey 0.5rem;
+}
+
+.contact-section{
+    background-color: rgb(188, 188, 219);
+    width: 100%;
+    height: auto;
+}
+
+.about-section{
+    background-color: rgb(188, 188, 219);
+    width: auto;
+    height: auto; 
+}
+
+.p-class{
+    font-size: 8mm; 
+    font-family: initial;
+    text-shadow: rgb(116, 127, 134) 1mm;
+    padding-top: 22% ;
+    text-align: center;
+}
+
+.contactlead a{
+     color: rgb(175, 25, 107) !important;
+     font-style: bold !important;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 5mm;
+     transition: all 0.25s ease 0s;
+     text-decoration: underline;
+}
+
+
+.contact-form{
+    background: #EBEBEB;
+    text-align: center; 
+    box-shadow: 0px 0px 20px 5px #AAA; 
+    border-radius: 10px;  
+    width: 45%; 
+    height: auto;
+    margin: 30px auto 0 auto;
+    padding: 10px 10px;  
+    padding-top: 0;
+    animation: bounce 1.5s infinite;
+}
+
+.form-label {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+   	box-shadow: none;
+}
+.form-control:focus {
+	box-shadow: none;
+	border-color: #5e9bfc;
+}
+
+.btn-start-order {
+	background: 0 0 #ffffff;
+    border: 1px solid #2f323a;
+    border-radius: 3px;
+    color: #2f323a;
+    font-size: 14px;
+    line-height: inherit;
+    margin: 2px 0;
+    transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+	border-color: #5e9bfc;
+	color: #5e9bfc;
+}
+
+@keyframes bounce{
+    0%{
+      
+    }
+    50%{
+      transform: translate(0, 8px);
+    }
+
+  }
+
+.map {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+}
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+.modal-dialog{
+    background: #EBEBEB;
+    text-align: center; 
+    box-shadow: 0px 0px 20px 5px #AAA; 
+    border-radius: 10px;  
+    width: auto; 
+    height: auto;
+    margin: 30px auto 0 auto;
+    padding: 10px 10px;  
+    padding-top: 0;
+}
+
+.modal-body {
+	font-size: 12px;
+	color: #5e9bfc;
+	margin: 0;
+	display: block;
+	opacity: 1;
+	-webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity;
+}
