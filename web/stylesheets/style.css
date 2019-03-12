@@ -21,8 +21,7 @@
 h1 {
   position: absolute;
   color: #503737;
-  top: 40%;
-  left: 40%;
+  top: 30%;
   letter-spacing: 5mm; 
 }
 
@@ -210,7 +209,7 @@ h3 {
   right: 15px;
   margin-right: 20px;
   margin-bottom: 20px;
-}    
+}   
 
 .bounce {
 	-moz-animation: bounce 3s infinite;
