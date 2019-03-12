@@ -23,15 +23,15 @@ h1 {
   color: #503737;
   top: 40%;
   left: 40%;
-  letter-spacing: 5mm;
-  text-shadow: 4px 4px 4px #aaa; }
+  letter-spacing: 5mm; 
+}
 
 h2 {
   position: absolute;
   letter-spacing: 5mm;
   top: 60%;
   color: black;
-  text-shadow: 4px 4px 4px #aaa; }
+}
 
 .ml5 {
   position: relative;
@@ -71,7 +71,6 @@ h2 {
   opacity: 0; }
 
 h3 {
-  text-shadow: 4px 4px 4px #aaa;
   content: "";
   display: inline-block; }
 
@@ -131,7 +130,7 @@ h3 {
   margin: 30px auto 0 auto;
   padding: 10px 10px;
   padding-top: 0;
-  animation: bounce 1.5s infinite; }
+ }
 
 .form-label {
   font-size: 12px;
@@ -165,12 +164,9 @@ h3 {
 
 .btn-start-order:hover, .btn-start-order:active, .btn-start-order:focus {
   border-color: #5e9bfc;
-  color: #5e9bfc; }
+  color: #5e9bfc; 
+}
 
-@keyframes bounce {
-  0% { }
-  50% {
-    transform: translate(0, 8px); } }
 
 .map {
   position: relative;
@@ -204,6 +200,71 @@ h3 {
   opacity: 1;
   -webkit-transition: .333s ease top, .333s ease opacity;
   transition: .333s ease top, .333s ease opacity; }
+
+  
+#to-top-btn {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  bottom: 15px;
+  right: 15px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}    
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

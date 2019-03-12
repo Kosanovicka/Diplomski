@@ -28,7 +28,6 @@ h1{
     top: 40%;
     left:40%;
     letter-spacing: 5mm;
-    text-shadow: 4px 4px 4px #aaa;
 }
 
 h2{
@@ -36,7 +35,6 @@ h2{
     letter-spacing: 5mm;
     top: 60%;
     color: black;
-    text-shadow: 4px 4px 4px #aaa;
 }
 
 .ml5 {
@@ -82,7 +80,6 @@ h2{
   }
 
 h3{
-    text-shadow: 4px 4px 4px #aaa;
     content:"";
     display: inline-block;
 }
@@ -95,7 +92,7 @@ h3{
 .strana4{
     background-color: rgb(188, 188, 219);
     width: 100;
-    height: 100; 
+    height: 100;
 }
 
 .navbar{
@@ -107,7 +104,6 @@ h3{
     font-size: 1.1rem;
     font-style: bold !important;
     color: black;
-    text-shadow: grey 0.5rem;
 }
 
 .contact-section{
@@ -142,15 +138,13 @@ h3{
 
 .contact-form{
     background: #EBEBEB;
-    text-align: center; 
-    box-shadow: 0px 0px 20px 5px #AAA; 
+    text-align: center;  
     border-radius: 10px;  
     width: 45%; 
     height: auto;
     margin: 30px auto 0 auto;
     padding: 10px 10px;  
     padding-top: 0;
-    animation: bounce 1.5s infinite;
 }
 
 .form-label {
@@ -189,16 +183,6 @@ h3{
 	color: #5e9bfc;
 }
 
-@keyframes bounce{
-    0%{
-      
-    }
-    50%{
-      transform: translate(0, 8px);
-    }
-
-  }
-
 .map {
     position: relative;
     padding-bottom: 75%; 
@@ -233,5 +217,68 @@ h3{
 	display: block;
 	opacity: 1;
 	-webkit-transition: .333s ease top, .333s ease opacity;
-	transition: .333s ease top, .333s ease opacity;
+    transition: .333s ease top, .333s ease opacity;
+}
+#to-top-btn {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    bottom: 15px;
+    right: 15px;
+    margin-right: 20px;
+    margin-bottom: 20px;  
+}    
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
 }
